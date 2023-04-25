@@ -1,0 +1,10 @@
+*
+!*.*
+!*/
+*.swp
+practice/
+*.out
+PntrTest/
+sender1.c
+receiver1.c
+test.c
