@@ -10,7 +10,7 @@
     * #### TCP Protocol
         * Implementation of Bit Stuffing for Variable Framing in Data Link Layer
         * Simple Checker to validate whether an IP address is IPV4 or not
-        * Naive TCP Handshaking Implementation
+        * Naive TCP Handshake Implementation
         * ##### Flow Control Protocols
              * Simulation of Stop and Wait ARQ using TCP
              * Simulation of Go Back N ARQ using TCP
