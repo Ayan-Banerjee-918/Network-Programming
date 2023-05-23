@@ -11,9 +11,9 @@ char* crc(char* dividend,char* divisor){
 	divisor_len=strlen(divisor);
 	char* data=malloc(128*sizeof(char));
 	int i=0,j=0,msb=0;
-	snprintf(data,128,"%s%0*d",data,divisor_len-1,0);
+	snprintf(data,128,"%s%0*d",dividend,divisor_len-1,0);
 	for(i=0;i<dividend_len;i++){
-		msb=dividend[0]-'0';
+		msb=data[0]-'0';
 		if(msb==1){
 			for(j=0;j<divisor_len;j++){
 				data[j]= (data[j]==divisor[j])?'0':'1';
