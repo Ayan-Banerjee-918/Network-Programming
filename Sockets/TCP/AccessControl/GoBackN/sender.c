@@ -24,9 +24,9 @@ void* timer(void* args){
 	int i=0;
 	sleep(5);
 	r->tot=1;
-	for(i=0;i<r->N;i++){
+	/*for(i=0;i<r->N;i++){
 		pthread_cancel(r->th[i]);
-	}
+	}*/
 	pthread_exit(NULL);
 }
 
