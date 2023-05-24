@@ -24,6 +24,7 @@ void* timer(void* args){
 	int i=0;
 	sleep(5);
 	r->tot=1;
+	//the below commented portion causing segmentation fault in some machines, needs fix
 	/*for(i=0;i<r->N;i++){
 		pthread_cancel(r->th[i]);
 	}*/
